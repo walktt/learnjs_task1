@@ -9,4 +9,4 @@ let appData = {
 let rashod = prompt("Введите обязательную статью расходов в этом месяце");
 let summ = prompt("Во сколько обойдется?");
 appData.expenses[rashod] = summ;
-alert("Бюджет: " + appData.money/30);
+alert("Бюджет: " + appData.money/30); 
